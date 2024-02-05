@@ -1,7 +1,12 @@
 @use "normalize.css";
+@use "reset.scss";
+
+.main-body {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
 
 .wrapper {
 	position: relative;
 	overflow: hidden;
-	min-height: 100vh;
+	min-height: 100%;
 }
