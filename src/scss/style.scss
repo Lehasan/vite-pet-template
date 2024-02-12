@@ -1,12 +1,13 @@
-@use "normalize.css";
 @use "reset.scss";
 
 .main-body {
-	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-family: sans-serif;
 }
 
 .wrapper {
 	position: relative;
-	overflow: hidden;
-	min-height: 100%;
+	overflow: clip;
+	min-height: 100vh;
+	display: grid;
+	grid-template-rows: auto 1fr auto;
 }
